@@ -1,0 +1,16 @@
+.square {
+  min-width: 150px;
+  height: 150px;
+  border: solid 2px black;
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.blue {
+  color: blue;
+}
+.red {
+  color: red;
+}

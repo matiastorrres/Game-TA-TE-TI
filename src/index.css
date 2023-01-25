@@ -1,0 +1,69 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #384252;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  padding: 1rem 0;
+  border-bottom: solid #fff 5px;
+  margin-bottom: 2 rem;
+}
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+.header-container {
+  min-height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  border: 5px solid #fff;
+  max-width: 500px;
+  margin: 2rem auto;
+  text-align: center;
+}
+.container-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.container-card {
+  min-width: 300px;
+  border: rgb(72, 93, 109) 10px solid;
+  border-radius: 2rem;
+  height: 300px;
+  margin: 2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.container-card h4 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.container-cards :hover {
+  background-color: rgb(224, 63, 162);
+  transition: all 1s ease;
+}

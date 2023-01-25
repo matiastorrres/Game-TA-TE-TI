@@ -1,0 +1,45 @@
+/* tateti */
+.container-tateti {
+  text-align: center;
+}
+
+.container-tateti h2 {
+  text-align: center;
+  margin: 2rem auto;
+  font-size: 3rem;
+}
+.container-game {
+  width: 800px;
+  min-height: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.container-square {
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  grid-template-rows: 150px 150px 150px;
+  justify-content: center;
+}
+
+.is-select {
+  background-color: aqua;
+}
+.container-tateti button {
+  padding: 8px 12px;
+  margin: 2rem;
+  background: transparent;
+  border: 2px solid #eee;
+  color: #eee;
+  width: 100px;
+  border-radius: 5px;
+  transition: 0.2s;
+  font-weight: bold;
+  cursor: pointer;
+}
+.container-tateti button:hover {
+  background: #eee;
+  color: #222;
+}
+.container-btns-difficulty {
+  display: flex;
+}
